@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav {
+    background-color: black;
+    font-size: 0;
+}
+
+a {
+    display: inline-block;
+    width: 25%;
+    box-sizing: border-box;
+    margin: 20px 0;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+a.btn1 {
+    background-color: rgb(58, 58, 255);
+}
+
+a.btn1:hover {
+    background-color: rgb(39, 39, 168);
+}
+
+a.btn2 {
+    background-color: rgb(255, 176, 58);
+}
+
+a.btn2:hover {
+    background-color: rgb(158, 108, 34);
+}
+
+a.btn3 {
+    background-color: rgb(104, 255, 58);
+}
+
+a.btn3:hover {
+    background-color: rgb(77, 163, 36);
+}
+
+a.btn4 {
+    background-color: rgb(58, 255, 173);
+}
+
+a.btn4:hover {
+    background-color: rgb(38, 175, 118);
+}
+
+.header {
+    height: 100px;
+    background-color: rgb(98, 171, 240);
+}
+
+.main {
+    min-height: 50vh;
+    background-color: orange;
+} 
+
+.footer {
+    min-height: 100px;
+    background-color: darkcyan;
+}
